@@ -41,6 +41,7 @@
 // while this header uses boost shared pointers
 // Shiboken2 isn't able to parse it correctly atm
 //#include <boost/shared_ptr.hpp>
+#include <boost/filesystem.hpp>
 
 #include <pluginlib/class_loader.hpp>
 #include <tinyxml.h>
