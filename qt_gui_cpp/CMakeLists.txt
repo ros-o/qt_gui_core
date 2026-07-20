@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.5)
 project(qt_gui_cpp)
 
 find_package(catkin REQUIRED COMPONENTS cmake_modules pluginlib)
-find_package(Boost REQUIRED COMPONENTS filesystem system)
+find_package(Boost REQUIRED COMPONENTS filesystem)
 find_package(TinyXML REQUIRED)
 
 catkin_package(
